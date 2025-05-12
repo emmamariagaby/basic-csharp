@@ -129,7 +129,7 @@ namespace BasicCSharp
         private static void DisplayResult(string reversedFirstName, string reversedLastName, string reversedCity)
         {
             Console.Write("Results: ");
-            Console.Write(String.Format("{0} {1} {2}", reversedFirstName, reversedLastName, reversedCity));  // Corrected this line
+            Console.Write(String.Format("{0} {1} {2}", reversedFirstName, reversedLastName, reversedCity));
         }
 
         private static void DisplayResult(string message)
